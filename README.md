@@ -1,37 +1,44 @@
 
 
-    Due Date
-    Thursday, March 7, 2019 11:59 PM
-    Points Possible
-    100
+  
 
-    Assignment 3 - Pizza Bandit Signup and Ordering
+Assignment In-Class: 20190220
 
-    You've followed along with me all semester so far with the Pizza Bandit program.  This assignment sees us completing that assignment for the ReactJS-only portion of the course.  You'll accomplish and complete the following:
-        Create a basic ReactJS app
-        Create a form that allows a user to sign up with an account
-            email and password
-            save this information to Firebase
-        Create a form that allows a user to order a pizza
-            user must be signed in
-            use location services to get lat/lon
-            use a web service to get ZIP code from lat lon
-            select from three pizzas - cheese, pepperoni, and supreme
-        Order sourcing and order saving
-            Using ZIP code find nearby Pizza places - we'll use a real web service here
-        Confirmation and delivery screen
-            finalize delivery street address
-            show delivery street address on mapbox
-            You'll save the order to Firebase
-            You'll confirm the order via an email
+React JSX Practice and Event Handling
 
-    This is a significant undertaking and the remainder of our class time between then and now will focus on these requirements.
+Step One: Create a new simple react application
 
-    The first eight chapters of the Thomas book are instructive in getting this completed.
+    Create a new directory to place today's work
+    Create an HTML5 index.html file
+    Bring in references to Bootstrap
+    Bring in references to React and ReactDOM
+    Bring in references to Babel
+    Create a root DIV element
 
-    Submitting your Work
+Step Two: Create a new Github Repository and use Git to create a local repository that syncs with your Github repository
 
-    You'll deliver this app via the following means:
-        Github repository URL
-        Zipped up and uploaded here
+    git init - THIS IS ONLY DONE ONCE PER REPOSITORY - YOU NEVER RUN THIS AGAIN
+    git add -A - adds the files in this directory 
+    git commit -m "a useful message describing this update here" - you do this every time you create a new update
+    Create a github repository
+    copy the git remote command there
+    git push -u origin master - Push to the github repository
+
+Step Three: Create a simple JSX form
+
+    Create an input for an email
+    Create an input for a password
+    Create a button for submission
+
+Step Four: Introduce an Event handler
+
+    Create an event handlers for:
+        The email input
+        The password input
+        The button
+    Validate form input
+        ensure the email is correct
+        check to see that the password is 8 characters or more and has at least 1 number and one capitalized letter
+    Show form input in a separate div:
+        show the results from the form as JSX output in a separate DIV
 
